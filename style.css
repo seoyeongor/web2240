@@ -1,0 +1,108 @@
+	/* 데스크톱 */
+	body{ margin:0 auto;
+	      width:60%;
+		  font-family:"은 바탕", "Nanum Gothic", "맑은 고딕", Dotum;
+		  color:#404040;
+		  font-size:95%;}
+	a {text-decoration:none;
+	   color:white; }
+	#header{ background-color: #82B3ED;
+	         color:white;}
+	label,#toggle {display:none;}
+    #nav {	padding:0;
+	        margin: 0;
+			display:inline;}
+	#nav li{ display: inline-block;
+	         padding: 30px 150px;
+			 font-weight:bold;
+			 font-size:22px;}
+	#contents {min-height: 200px; 
+	           background-color:white; }
+	#contents h2{ font-size: 18px;
+	              color: #506EA5;
+				  text-align:center; 
+				  font-style: italic;
+				  font-weight: 900;
+				  text-decoration: underline;
+				  margin:50px 0 10px 0; }
+	#contents h1{ font-size: 25px;
+	              color: #506EA5;
+				  text-align:center; 
+				  font-style: italic;
+				  font-weight: 900;
+				  text-decoration: underline;
+				  margin:50px 0 10px 0; }
+	#contents h4{ font-size: 18px;
+	              color: #506EA5;
+				  text-align: left; 
+				  font-style: italic;
+				  font-weight: 900;
+				  text-decoration: underline;
+				  margin:50px 0 10px 0; }
+	#contents img{display: block;
+					margin: 5px auto; }
+	#contents h3{text-align:center;
+				 color:#4169E1;}
+	#contents p{padding:0 5%;
+				line-height:1.7em;}
+	#footer {background-color:#323232;
+	         color:white;
+			 text-align:center;
+			 font-size:0.85em;
+			 padding: 5px 0; }
+	.c1 {border : 3px dashed #6495ED; 
+		 background-color: #D7F1FA; 
+		 font-weight: 300;
+		 width: 55%;
+		 height: 50%;
+		 margin: 30px 15px;
+		 font-size: 1.1em;
+		 text-align: left;
+		 color: #3CA0FF;
+		 padding: 2% 7% 1% 0.5%; }
+	.c2 {background-color: #C3E7FA; 
+		 border: 3px dotted white;
+		 font-weight: 800;
+		 color: midnightblue; 
+		 margin: 5px 15px;
+		 text-align: center;}
+	#contents1 { border: 3px solid #AECDFF;
+				 border-radius: 25%; }
+	#contents2 { border: 3px solid #A0D1F7;
+				 border-radius: 50%; }
+	#contents3 { border: 3px solid #B8D7FF;
+				 border-radius: 12.5%;
+				 margin: 50%;}
+	.c3 {text-align: center;
+		 width: 200px; 
+		 height: 30px;
+		 background-color: #E0EBFF;
+		 margin: auto 10px auto auto;
+		 font-weight: 100;
+		 padding: 6px;
+		 font-size: 9pt;
+		 text-align: center;}
+	.c4 {text-align: center;
+		 font-weight: 700;}
+	.c5 {background-color: #B4E5FF;
+		 margin: 10%;
+		 color: #4873E1;}
+	/* 모바일 */
+	@media screen and (max-width: 480px) {
+		body{margin: 0 auto;
+			 width:100%;}
+		#nav { display:none;}
+		#toggle:checked + #nav { display:block;}
+		#nav li{ display:block;
+				 width:100%;
+				 text-align:center;
+				 border-top:1px solid white;
+				 padding: 3%;
+				 font-size:1.1em; }
+		label{display:block;
+				text-align:center;
+				font-size:20px;
+				font-weight:bold;
+				padding: 10px 3%; }
+		#contents img{width:98%;}
+	}
