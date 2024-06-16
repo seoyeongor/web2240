@@ -56,7 +56,7 @@
 		 width: 55%;
 		 height: 50%;
 		 margin: 30px 15px;
-		 font-size: 1.1em;
+		 font-size: ;
 		 text-align: left;
 		 color: #3CA0FF;
 		 padding: 2% 7% 1% 0.5%; }
@@ -66,13 +66,23 @@
 		 color: midnightblue; 
 		 margin: 5px 15px;
 		 text-align: center;}
-	#contents1 { border: 3px solid #AECDFF;
+	#contents1 { border: 6px groove #AECDFF;
 				 border-radius: 25%; }
-	#contents2 { border: 3px solid #A0D1F7;
+	#contents2 { border: 6px groove #A0D1F7;
 				 border-radius: 50%; }
-	#contents3 { border: 3px solid #B8D7FF;
-				 border-radius: 12.5%;
-				 margin: 50%;}
+	#contents3 { border: 6px groove #B8D7FF;
+				 border-radius: 0 12.5% 0 50%;
+				 margin: 4%;}
+	#contents6 { border: 6px groove #B8D7FF;
+				 border-radius: 50% 0 12.5% 0;
+				 margin: 4%;}
+	#contents4 { border: 6px groove #AECDFF;
+				 border-radius: 10% 10% 10% 10%;
+				 font-size: 20pt;}
+	#contents5 { border: 7px double #AECDFF;
+				 border-radius: 10% 10% 10% 10%; }
+	#contents7 { border: 7px double #AECDFF;
+				 border-radius: 10% 10% 10% 10%; }
 	.c3 {text-align: center;
 		 width: 200px; 
 		 height: 30px;
@@ -86,7 +96,13 @@
 		 font-weight: 700;}
 	.c5 {background-color: #B4E5FF;
 		 margin: 10%;
-		 color: #4873E1;}
+		 color: #4873E1;
+		 border: 10px dashed white;
+		 padding: 5px;}
+	.c6 {margin: 4%; }
+	.c7 {margin: 4%;
+		 border: 5px double #E0EBFF;
+		 padding: 50px 10px 10px 10px; }
 	/* 모바일 */
 	@media screen and (max-width: 480px) {
 		body{margin: 0 auto;
@@ -104,5 +120,5 @@
 				font-size:20px;
 				font-weight:bold;
 				padding: 10px 3%; }
-		#contents img{width:98%;}
+		#contents img{width:80%;}
 	}
